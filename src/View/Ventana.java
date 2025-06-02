@@ -89,17 +89,13 @@ public class Ventana extends JFrame {
         add(text);
         add(label1);
         add(pane);
-        
+
     }
 
     JPanel panel1 = new JPanel();
-
     JButton boton1 = new JButton("Aceptar");
-
     JLabel label1 = new JLabel("Introduce el número entero positivo que quieras buscar");
-
     JTextField text = new JTextField();
-
     JTextPane pane = new JTextPane();
 
 }
