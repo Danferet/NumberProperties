@@ -75,7 +75,12 @@ public class Ventana extends JFrame {
                         .append("\n")
                         .append("Invertido: ")
                         //Nos devolverá el número dado la vuelta.
-                        .append(InvertirDigitos.invertir(numero));
+                        .append(InvertirDigitos.invertir(numero))
+                        .append("\n")
+                        .append("Niven: ")
+                        //Nos dirá si es un número de Niven.
+                        .append(Niven.numeroNiven(numero))
+                        .append("\n");
 
                 pane.setText(sb.toString());
             }
