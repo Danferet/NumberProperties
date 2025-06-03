@@ -14,6 +14,6 @@ public class InvertirDigitos {
             num = num / 10;
 
         }
-        return "El numero " + numero + " invertido es el " + numeroNuevo;
+        return "El numero " + numero + " invertido es el " + numeroNuevo + ".";
     }
 }
